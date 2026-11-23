@@ -5000,7 +5000,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 447365156}
-  - component: {fileID: 447365155}
   m_Layer: 0
   m_Name: LightSpirit_Route
   m_TagString: Untagged
@@ -5008,45 +5007,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &447365155
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 447365154}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1199e0230e62b4ad88e8b7202a8e84d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::WaypointRouteFollower
-  waypoints:
-  - point: {fileID: 171660658}
-    speedToThisPoint: 3
-    waitTime: 1
-    onArrival:
-      m_PersistentCalls:
-        m_Calls: []
-  - point: {fileID: 555351578}
-    speedToThisPoint: 3
-    waitTime: 2
-    onArrival:
-      m_PersistentCalls:
-        m_Calls: []
-  - point: {fileID: 2067481449}
-    speedToThisPoint: 3
-    waitTime: 0
-    onArrival:
-      m_PersistentCalls:
-        m_Calls: []
-  smoothMovement: 1
-  playOnStart: 1
-  onRouteStarted:
-    m_PersistentCalls:
-      m_Calls: []
-  onRouteCompleted:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!4 &447365156
 Transform:
   m_ObjectHideFlags: 0
@@ -5224,45 +5184,6 @@ MonoBehaviour:
   lightBaseIntensity: 1.2
   lightFlickerAmount: 0.2
   lightFlickerSpeed: 2.5
---- !u!114 &573401905
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 573401902}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1199e0230e62b4ad88e8b7202a8e84d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::WaypointRouteFollower
-  waypoints:
-  - point: {fileID: 171660658}
-    speedToThisPoint: 3
-    waitTime: 1
-    onArrival:
-      m_PersistentCalls:
-        m_Calls: []
-  - point: {fileID: 555351578}
-    speedToThisPoint: 3
-    waitTime: 2
-    onArrival:
-      m_PersistentCalls:
-        m_Calls: []
-  - point: {fileID: 2067481449}
-    speedToThisPoint: 3
-    waitTime: 0
-    onArrival:
-      m_PersistentCalls:
-        m_Calls: []
-  smoothMovement: 1
-  playOnStart: 1
-  onRouteStarted:
-    m_PersistentCalls:
-      m_Calls: []
-  onRouteCompleted:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!4 &592076642 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -5695980875741243996, guid: b946f6ad1c0f54383a6aaae6f6f0b422, type: 3}
@@ -5531,9 +5452,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b946f6ad1c0f54383a6aaae6f6f0b422, type: 3}
       insertIndex: -1
       addedObject: {fileID: 573401904}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b946f6ad1c0f54383a6aaae6f6f0b422, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 573401905}
   m_SourcePrefab: {fileID: 100100000, guid: b946f6ad1c0f54383a6aaae6f6f0b422, type: 3}
 --- !u!1 &1736391641
 GameObject:
