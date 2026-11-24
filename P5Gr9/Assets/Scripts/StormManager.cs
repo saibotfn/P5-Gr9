@@ -9,6 +9,7 @@ public class StormManager : MonoBehaviour
     public Light sunLight;
     public AudioSource windAudio;
     public AudioSource thunderAudio;
+    [SerializeField] private WindController windController;
 
     [Header("Storm Atmosphere")]
     [Range(0f, 1f)]
@@ -114,6 +115,10 @@ public class StormManager : MonoBehaviour
     {
         if (stormActive || stormEnding)
             return;
+        if (windController != null)
+        {
+            windController.windStrength = 0.5f;
+        }
 
         stormActive = true;
         stormEnding = false;
@@ -163,6 +168,10 @@ public class StormManager : MonoBehaviour
     {
         if (!stormActive || stormEnding)
             return;
+        if (windController != null)
+        {
+            windController.windStrength = 0.1f;
+        }
 
         stormActive = false;
         stormEnding = true;
