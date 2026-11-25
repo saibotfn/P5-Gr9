@@ -6856,10 +6856,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::WindController
   materials:
   - {fileID: 2100000, guid: 0a1f44318dd467a45bfef81ad0e8855a, type: 2}
+  - {fileID: 2100000, guid: 3922c043c1c52cb47a7b1bfed562a4b6, type: 2}
+  - {fileID: 2100000, guid: aac20e0005fef5248bc0774a19a05e87, type: 2}
   - {fileID: 2100000, guid: 066ded06e6a8eb240893ea7b8efb66b4, type: 2}
-  - {fileID: 2100000, guid: 09473d06882d1414b84b1fdb7a095516, type: 2}
+  - {fileID: 2100000, guid: e6ce4253a748b0849a04b87f33cc539d, type: 2}
   - {fileID: 2100000, guid: 823cb446423dd7747b7454d5cf133e75, type: 2}
+  - {fileID: 2100000, guid: f43a7dc4f39c5654a8211b83259e32a9, type: 2}
   - {fileID: 2100000, guid: 67c85a5a0248e2a4a98e653c8e7eeb9e, type: 2}
+  - {fileID: 2100000, guid: 09473d06882d1414b84b1fdb7a095516, type: 2}
   windStrength: 0.1
   gustAmount: 0.4
   gustSpeed: 0.15
