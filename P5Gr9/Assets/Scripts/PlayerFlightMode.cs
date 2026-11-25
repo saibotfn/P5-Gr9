@@ -13,6 +13,7 @@ public class PlayerFlightMode : MonoBehaviour
 
     [Header("References")]
     public WaypointRouteFollower routeFollower;
+    [SerializeField] private StormManager stormManager;
 
     [Tooltip("First Person Controller on PlayerCapsule")]
     public FirstPersonController firstPersonController;
@@ -85,6 +86,8 @@ public class PlayerFlightMode : MonoBehaviour
     {
         if (routeFollower != null)
             routeFollower.StopRoute();
+        //if(stormManager != null)
+            //stormManager.BeginStorm();
     }
 
     public void SetAutomaticFlight(bool enabled)
